@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### Documentation
+
+- Reorganized both READMEs around use cases, installation, invocation, and input-to-decision examples.
+- Replaced duplicate rule tables, repository-map details, and speculative roadmap text with reference links.
+- Documented the Skills CLI 1.7.0 discovery and isolated Claude Code project file-installation check; agent activation and live research remain untested in that check.
+
 ## [0.1.0] - 2026-10-01
 
 Initial release. No external adoption or performance results are claimed.
