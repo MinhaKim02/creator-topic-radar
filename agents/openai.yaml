@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creator Topic Radar"
+  short_description: "Research timely, evidence-backed short-form topics"
+  default_prompt: "Use $creator-topic-radar to research short-form topic candidates with separate assessments of audience interest, freshness, factual reliability, duplicate risk, and suitability."
