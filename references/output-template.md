@@ -1,16 +1,30 @@
 # Output template
 
-Translate headings and judgment labels into the requested output language. Preserve source titles when useful. Use one compact card per candidate; a comparison table may supplement cards, but must not erase sources or caveats.
+Translate headings and judgment labels into the requested output language. Preserve source titles when useful. Use one compact card per candidate by default; a comparison table may supplement cards, but must not erase sources or caveats. Keep the detailed evidence ledger separate from the final selection. Expand only when requested or when a material uncertainty or tradeoff needs explanation.
 
-## Research context
+## Brief research context
 
 - Audience, scope, platforms, geography, time window, and stated assumptions.
 - Research cutoff: date/time and timezone.
 - For historical briefs, distinguish evidence available by the cutoff from separately labeled later updates.
-- Discovery modes actually used and the accessible comparison history.
+- Discovery modes actually used, inspected sample breadth and material language/format gaps, and the accessible comparison history.
 - Material access limits and unperformed checks.
 
-## Candidate card
+State shared context once, not on every card. For a selected-topic archive, retain only context needed to interpret the topic and its evidence; do not automatically copy the entire research process.
+
+## Default candidate card
+
+- **Working title:** A clear provisional title without unsupported certainty.
+- **Core question and explanation:** One question and a short evidenced answer or causal chain, not a script.
+- **Selection reason:** Why now and why the intended audience may care, with a dated event or update and the relevant interest evidence. Distinguish same-event coverage from same-question coverage.
+- **Key evidence:** Essential primary-source links and inspected creator/program links. Keep facts, attributed claims, analysis, and predictions distinguishable.
+- **Important limits and decision:** State material uncertainty, essential scope, comparison-history limits, missing interest evidence, or a partial record match when they affect selection. Identify recommended versus provisional status.
+
+Use dates and observation times where volatile evidence affects the recommendation. Missing history must remain visible even in a concise card. Do not omit a qualification that changes the meaning merely to shorten the output.
+
+## Detailed research ledger
+
+Retain these fields as separate research assessments. Show them when requested or needed to explain a decision; do not require every field in every final card.
 
 - **Working title:** A clear provisional title without unsupported certainty.
 - **Core question:** One question the video would answer.

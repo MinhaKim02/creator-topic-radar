@@ -8,6 +8,16 @@
 - Replaced duplicate rule tables, repository-map details, and speculative roadmap text with reference links.
 - Documented the Skills CLI 1.7.0 discovery and isolated Claude Code project file-installation check; agent activation and live research remain untested in that check.
 
+## [0.1.1] - 2026-10-05
+
+### Changed
+
+- Added briefing-first discovery for timely events from topical briefings and multi-topic programs.
+- Added audience-specific sampling checks across languages, regions, and program formats, with observed access depth and explicit coverage gaps.
+- Defined one-program counting for episodes, Shorts clips, podcast/video versions, syndications, and multiple hosts.
+- Separated convergence on the same event from convergence on the same editorial question.
+- Made concise candidate cards the default while retaining separate detailed assessments and material evidence limits.
+
 ## [0.1.0] - 2026-10-01
 
 Initial release. No external adoption or performance results are claimed.

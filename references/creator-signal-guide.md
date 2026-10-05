@@ -6,6 +6,14 @@ Use creator-led videos as audience-interest signals. Use appropriate primary sou
 
 Where accessible, expand from video to channel, recent uploads, adjacent creators, and recurring questions. State whether adjacency came from recommendations, platform links, or ordinary search. A search result is not evidence of recommendation-graph traversal. Disclose when search visibility or inaccessible platforms constrain the sample.
 
+## Check sampling breadth
+
+Adapt the sample to the audience, geography, subject, and research window. Include relevant source languages and a useful range of formats, such as daily briefings, focused event or company analysis, explainers, and topical discussion programs. Treat example channels as rotating seeds, not a complete roster. There is no universal minimum number of channels and no requirement to cover every language or format.
+
+Keep a coverage ledger of programs actually inspected: language, region when relevant, format, episode/upload date, URL, events or questions observed, and access depth (body/transcript, description, or title only). Count inspected content separately from search hits and inaccessible links. A title can support that an event was mentioned; it does not establish the creator's argument. Expand gaps that could change the ranking, or state the actual sample and its limits. Stop when the requested shortlist has defensible facts, relevant interest evidence, and clearly disclosed gaps.
+
+Daily briefings and multi-topic discussions can reveal timely events before individual videos accumulate substantial views. Extract the event first, then its audience-relevant question. Repeated coverage is an attention signal even when metrics are unavailable; it is not proof of exceptional video response.
+
 ## Record observations
 
 For each useful video, record platform, creator/channel, title, URL, publication timestamp or approximate age, observed view count when available, observation timestamp, and where the metric came from.
@@ -26,7 +34,9 @@ If age-matched observations or a defensible baseline are unavailable, describe r
 
 ## Assess convergence
 
-Look for independent creators discussing the same underlying question, not just mentioning the same company. Record how many distinct creators were actually inspected and the differing angles where useful. Exclude simple reposts and identify shared source dependence or coordinated promotion when evidenced. Multiple reactions to one announcement show attention; they do not independently verify its claims.
+Assess convergence at two levels: independent programs covering the same concrete event, and independent programs discussing the same underlying question. Record each separately. Same-company mentions alone establish neither. Event convergence can motivate a new editorial angle, but does not establish that the exact proposed question is already widely discussed.
+
+Count a program's full episode, Shorts clips, podcast and video versions, syndications, and multiple hosts as one program for convergence. Different episodes from that program add observations, not independent-program counts. Record the distinct programs actually inspected and the differing angles where useful. Identify shared source dependence or coordinated promotion when evidenced. Multiple reactions to one announcement show attention; they do not independently verify its claims. Keep language-specific evidence distinct when reporting geographic or language uptake.
 
 One video can motivate further investigation. Do not treat it alone as established ecosystem-wide interest. No discovered videos can reflect search/access limitations rather than absence of demand.
 
