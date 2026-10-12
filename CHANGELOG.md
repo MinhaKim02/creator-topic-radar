@@ -1,6 +1,13 @@
 # Changelog
 
-## Unreleased
+## [0.2.0] - 2026-10-12
+
+### Added
+
+- Added an editable creator watchlist and 72-hour radar path with a first-run baseline and explicit run-to-run change labels.
+- Added dated observation and compact private archive guidance; clarified that unattended monitoring requires an external scheduler and storage.
+- Separated same-event coverage, same-question convergence, single-program standouts, and early signals without inventing age-matched metrics.
+- Added matching English/Korean README examples and synthetic monitoring cases.
 
 ### Documentation
 
