@@ -12,6 +12,14 @@ Translate headings and judgment labels into the requested output language. Prese
 
 State shared context once, not on every card. For a selected-topic archive, retain only context needed to interpret the topic and its evidence; do not automatically copy the entire research process.
 
+## Compact recurring radar, when requested
+
+- **Cutoff and comparison:** Date/time/timezone, 72-hour window, previous archive run if available, or `first baseline`.
+- **Actual coverage:** Watchlist programs checked, outside-list discoveries, source access failures and access depth.
+- **Changed observations:** New uploads or newly shared questions, continuing topics, one-program standouts, and early signals. For each useful lead include video URLs, original publish dates, actual question, independent-program count, and metric provenance when available.
+- **Status and next check:** Separate interest from factual verification; identify the primary source or gap to examine next. A quiet day can be a short dated coverage entry.
+- **Archive:** Write one private dated entry only when a destination is requested/configured. Do not turn every lead into a candidate card or claim approval.
+
 ## Default candidate card
 
 - **Working title:** A clear provisional title without unsupported certainty.
