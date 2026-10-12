@@ -6,12 +6,13 @@ An Agent Skill for researching short-form topics with sources, clear questions, 
 
 Find candidates from creator videos, recent events, or your research backlog. Assess audience interest, freshness, factual evidence, duplication, and roughly 60-second fit separately. Built for creators, content marketers, and researchers working on YouTube Shorts, TikTok, Instagram Reels, and similar formats.
 
-**Version:** v0.1.0 · **License:** [MIT](LICENSE)
+**Version:** v0.2.0 · **License:** [MIT](LICENSE)
 
 ## When to use it
 
 | You want to… | Start with… | The skill helps you… |
 |---|---|---|
+| Monitor relevant creators | Editable channel watchlist | See new uploads, shared questions, and single-creator standouts in a 72-hour radar |
 | Find topics for the coming week | Creator videos | Identify recurring questions and verify the underlying events |
 | Turn a product or company update into a topic | An entity or announcement | Find a specific audience question supported by the evidence |
 | Review a research backlog | Your records, notes, or archive | Separate recent developments from old events and unsupported claims |
@@ -49,6 +50,12 @@ Use UTC. Return sources, caveats, and missing evidence. Stop at the shortlist.
 
 Provide your audience, subject, time window, platforms, and past-content history when available. Important missing context is clarified or recorded as an assumption. Output follows your language unless you request another. Supply only material you are authorized to use.
 
+## Recurring topic radar
+
+Provide a few creator channel URLs relevant to your audience, a timezone, and a private place to retain dated observations. Each run checks the past 72 hours first, compares observed videos with the prior run, and labels shared questions, single-program standouts, and early uploads separately. It uses the creator's comparable same-age observations only when those snapshots actually exist. A first run establishes a baseline; it cannot say what changed yesterday.
+
+For example, ask: `Check my watchlist's last 72 hours, record the actual question in each video, compare with the previous radar entry, and return only new or materially changed leads with URLs and research gaps.` A separate scheduler and writable archive are needed for unattended daily runs. This repository does not include either one or a YouTube API integration. Keep private performance and planning records out of this public repository. Use the daily radar to collect leads; verify facts, duplicates and fit before a weekly recommendation.
+
 ## From input to decision
 
 **Fictional examples**, evaluated as of October 1, 2026 for a seven-day research window:
@@ -72,7 +79,7 @@ See a [complete fictional candidate and handoff](examples/en/database-to-topic.m
 | Database to topic — [EN](examples/en/database-to-topic.md) / [KO](examples/ko/database-to-topic.md) | Backlog review, a full synthetic candidate, and a handoff |
 | [Research rubric](references/research-rubric.md) | Factual reliability, semantic duplicates, and short-form fit |
 | [Freshness rules](references/freshness-rules.md) | Event dates, material updates, and historical cutoffs |
-| [Creator signal guide](references/creator-signal-guide.md) | Video age, metric provenance, and independent observations |
+| [Creator signal guide](references/creator-signal-guide.md) | Watchlist radar, run-to-run changes, video age, and independent observations |
 | [Evaluation cases](tests/cases.md) | Synthetic inputs and a review protocol |
 | [Changelog](CHANGELOG.md) | Version history |
 
