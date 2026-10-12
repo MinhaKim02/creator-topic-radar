@@ -37,6 +37,11 @@ The cases below are an initial set. Passing them does not establish platform cov
 | T19 | Historical cutoff Sep 30; an Oct 2 source describes a Sep 29 event. | Exclude later evidence from the historical assessment; explain unavailable contemporaneous verification. |
 | T20 | Two supported topics have the same event, mechanism, question, and takeaway. | Merge overlap within the shortlist even if no content history is supplied. |
 | T21 | Maximum two candidates; one supported and three unsupported leads. | Separate recommendations from provisional follow-up; combined entries do not exceed two. |
+| T22 | First watchlist run has three videos, but no prior archive. Ask what changed since yesterday. | Label first baseline; do not claim new since yesterday or invent earlier snapshots. |
+| T23 | Two independent creators discuss the same AI product launch; one asks about consumer privacy, the other about business pricing. | Mark same-event convergence, not same-question convergence; separate the angles. |
+| T24 | Four clips from one podcast and a syndication all ask one question. | Count one program, not five independent channels; leave broad convergence unproven. |
+| T25 | A video uploaded two hours ago has 80K views; older comparable uploads each have 1M lifetime views, but no same-age snapshots. | Treat reach as established and response as early/unassessed; do not calculate a fabricated outlier ratio. |
+| T26 | A recurring radar has no qualifying videos today and the user configured a private archive. | Record actual checked sources and a compact no-new-observation entry; do not create candidate cards. |
 
 ## Reproducible packets
 
